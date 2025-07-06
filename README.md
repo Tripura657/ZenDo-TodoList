@@ -22,11 +22,11 @@ With a soothing green-red color theme, ZenDo makes it easy to track your progres
 
 ---
 
-## 🧘 Why ZenDo?
+## Why ZenDo?
 
 > _ZenDo helps you plan your day with less stress and more clarity._
 
-Whether you're managing daily routines, study goals, or personal reminders — ZenDo offers a peaceful way to stay productive.
+Whether you're managing daily routines, study goals, or personal reminders — ZenDo offers a way to stay productive.
 
 ---
 
