@@ -7,7 +7,7 @@ With a soothing green-red color theme, ZenDo makes it easy to track your progres
 
 ## 🔗 Live Demo
 
-🌐 [Visit ZenDo on Netlify] - https://your-netlify-link.netlify.app](https://sage-rabanadas-2b9aca.netlify.app/
+🌐 [Visit ZenDo on Netlify](https://sage-rabanadas-2b9aca.netlify.app/)  
 
 
 ---
