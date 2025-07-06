@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #eaf4f1;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e8b57;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #276e48;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.filters button {
+  background-color: #d9f2dd;
+  color: #006400;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #fff0f0;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 5px solid #ff4d4d; /* Red for pending */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+li.completed {
+  background: #e6ffed;
+  border-left-color: #2ecc71; /* Green for completed */
+  text-decoration: line-through;
+  color: #333;
+}
+
+.actions button {
+  margin-left: 5px;
+}
+
+.actions button:nth-child(1) {
+  background-color: #28a745; /* Complete */
+  color: white;
+}
+
+.actions button:nth-child(1):hover {
+  background-color: #218838;
+}
+
+.actions button:nth-child(2) {
+  background-color: #ffc107; /* Edit */
+  color: black;
+}
+
+.actions button:nth-child(2):hover {
+  background-color: #e0a800;
+}
+
+.actions button:nth-child(3) {
+  background-color: #dc3545; /* Delete */
+  color: white;
+}
+
+.actions button:nth-child(3):hover {
+  background-color: #c82333;
+}
+
+#progress {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #006400;
+}
